@@ -1,0 +1,22 @@
+{
+  "name": "json-vacations",
+  "version": "1.0.0",
+  "description": "Internship task",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sukairo-02/JSON-vacations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukairo-02/JSON-vacations/issues"
+  },
+  "homepage": "https://github.com/Sukairo-02/JSON-vacations#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
