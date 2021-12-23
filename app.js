@@ -26,13 +26,7 @@ const start = () => {
 		pretty.push(value)
 	}
 
-	fs.writeFile(
-		'vacationsPretty.json',
-		JSON.stringify(pretty, null, 4),
-		function (err) {
-			if (err) return console.log(err)
-		}
-	)
+	fs.writeFileSync('vacationsPretty.json', JSON.stringify(pretty, null, 4))
 }
 
 start()
